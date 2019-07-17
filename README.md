@@ -1,6 +1,2 @@
 # OpenCV-Python-Applications
-Repository containing many example and stand alone scripts for different OpenCV applications.
-
-## Sub categories
-
-
+Repository containing many examples and standalone scripts for different OpenCV applications.
