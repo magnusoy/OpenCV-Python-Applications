@@ -1,12 +1,12 @@
 import cv2
 import numpy as np
  
-video = cv2.VideoCapture("road_car_view.mp4")
+video = cv2.VideoCapture(0)
  
 while True:
     ret, orig_frame = video.read()
     if not ret:
-        video = cv2.VideoCapture("road_car_view.mp4")
+        video = cv2.VideoCapture(0)
         continue
  
     frame = cv2.GaussianBlur(orig_frame, (5, 5), 0)

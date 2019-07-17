@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
  
-video = cv2.VideoCapture("video.avi")
+video = cv2.VideoCapture(0)
  
 _, first_frame = video.read()
 x = 300

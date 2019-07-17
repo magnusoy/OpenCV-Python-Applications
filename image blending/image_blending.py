@@ -1,9 +1,9 @@
 import cv2
 import numpy as np
  
-img1 = cv2.imread("baseball_ball.png")
+img1 = cv2.imread("baseball.png")
 img1 = cv2.resize(img1, (1000, 1000))
-img2 = cv2.imread("football_ball.jpg")
+img2 = cv2.imread("football.jpg")
 img2 = cv2.resize(img2, (1000, 1000))
  
 footbase_ball = np.hstack((img1[:, :500], img2[:, 500:]))

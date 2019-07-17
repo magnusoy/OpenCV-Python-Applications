@@ -2,7 +2,7 @@ import cv2
 import numpy as np
  
 cap = cv2.VideoCapture(0)
-template = cv2.imread("pen.png", cv2.IMREAD_GRAYSCALE)
+template = cv2.imread("pen.jpg", cv2.IMREAD_GRAYSCALE)
 w, h = template.shape[::-1]
  
 while True:

@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
  
-cap = cv2.VideoCapture("highway.mp4")
+cap = cv2.VideoCapture(0)
  
 subtractor = cv2.createBackgroundSubtractorMOG2(history=20, varThreshold=25, detectShadows=True)
  

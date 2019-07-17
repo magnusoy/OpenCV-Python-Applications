@@ -1,8 +1,8 @@
 import cv2
 import numpy as np
  
-img1 = cv2.imread("the_book_thief.jpg", cv2.IMREAD_GRAYSCALE)
-img2 = cv2.imread("me_holding_book.jpg", cv2.IMREAD_GRAYSCALE)
+img1 = cv2.imread("house.jpg", cv2.IMREAD_GRAYSCALE)
+img2 = cv2.imread("house.jpg", cv2.IMREAD_GRAYSCALE)
  
 # ORB Detector
 orb = cv2.ORB_create()

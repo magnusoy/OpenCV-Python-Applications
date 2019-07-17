@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
  
-img = cv2.imread("squares.jpg")
+img = cv2.imread("square.jpg")
 gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
  
 corners = cv2.goodFeaturesToTrack(gray, 150, 0.8, 50)

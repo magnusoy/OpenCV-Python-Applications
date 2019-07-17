@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 from matplotlib import pyplot as plt
  
-img = cv2.imread("image.jpg")
+img = cv2.imread("road.jpg")
 b, g, r = cv2.split(img)
  
 cv2.imshow("img", img)

@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
  
-img = cv2.imread("img_of_object.jpg")
+img = cv2.imread("objects.jpg")
 roi = img[252: 395, 354: 455]
 x = 354
 y = 252

@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
  
-img = cv2.imread("img_of_object.jpg", cv2.IMREAD_GRAYSCALE) # queryiamge
+img = cv2.imread("objects.jpg", cv2.IMREAD_GRAYSCALE) # queryiamge
  
 cap = cv2.VideoCapture(0)
  
